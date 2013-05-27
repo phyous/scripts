@@ -24,7 +24,11 @@ rvm autolibs enable
 
 # Install ruby
 rvm install 1.9.3
-rvm use --default 1.9.3  
+rvm use --default 1.9.3
+
+# Install deluge - for torrents
+sudo apt-get install deluged
+sudo apt-get install deluge-console
 
 # reboot to take effect (needed for zsh)
 sudo reboot
